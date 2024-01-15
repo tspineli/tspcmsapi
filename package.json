@@ -1,0 +1,23 @@
+{
+  "name": "tspcmsapi",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@chilkat/ck-node20-mac-m1": "^9.50.96",
+    "axios": "^1.6.5",
+    "cookie-parser": "~1.4.4",
+    "crypto": "^1.0.1",
+    "debug": "~2.6.9",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "~1.9.1",
+    "node-forge": "^1.3.1",
+    "pkcs7": "^1.0.4"
+  }
+}

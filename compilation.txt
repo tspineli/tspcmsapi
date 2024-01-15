@@ -1,0 +1,10 @@
+/UFh+0KoLphQyMJd+GjHxRxpbdGBB2Ay6U3gHOSTBYs=
+
+T2LYd5cwUf75V80yZ8Xn0XGQgxFGNwYa73WwxfHD1Ok=
+
+echo 'T2LYd5cwUf75V80yZ8Xn0XGQgxFGNwYa73WwxfHD1Ok=' | base64 --decode > hash.bin
+
+
+e5f060391b97f0e484883e6d6d9823c4a0878464a1eb9be15dfcad4e4003f5eb
+
+openssl ts -query -digest e5f060391b97f0e484883e6d6d9823c4a0878464a1eb9be15dfcad4e4003f5eb -no_nonce -sha256 -out request.tsq
